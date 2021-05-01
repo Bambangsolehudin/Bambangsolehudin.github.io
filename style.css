@@ -2424,7 +2424,10 @@ select.mobile-device {
     outline: none;
 }
 
-
+#portfolio link:hover{
+        color: blue;
+}
+    
 /* Changing the placeholder color */
 
 .footer-distributed form input::-webkit-input-placeholder {
