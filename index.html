@@ -1,764 +1,321 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<head>
+   <title> Portfolio Bambang Solehudin</title>
+   <link rel="stylesheet" href="assets/styles/style.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <!-- Basic -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
-   
-    <!-- Mobile Metas -->
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
- 
-     <!-- Site Metas -->
-    <title>Portfolio Bambang Solehudin</title>  
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- Site Icons -->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Site CSS -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/custom.css">
-	<script src="js/modernizr.js"></script> <!-- Modernizr -->
-
-
-
+   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body id="page-top" class="politics_version">
+<body class="bg-dark text-light" >
 
-    <!-- LOADER -->
-    <div id="preloader">
-        <div id="main-ld">
-			<div id="loader"></div>  
+<header>
+	<nav class="navbar fixed-top navbar-light bg-dark" style="background-color: rgb(31, 31, 31);">
+		<div class="logo">
+			<a href="index.html"><img src="assets/image/logo.svg" alt="" style="margin-top: -9px;"> </a>
 		</div>
-    </div><!-- end loader -->
-    <!-- END LOADER -->
-	
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-      <div class="container">
+		
+		<ul>
+			<li>
+				<a href="index.html">Home</a>
+			</li>
+			<li>
+				<a href="all.html">Projects</a>
+			</li>
+			<li>
+				<a href="https://github.com/Bambangsolehudin">Github</a>
+			</li>
+			<li>
+				<a href="mailto:karir.bambang@gmail.com">Contact</a>
+			</li>
+		</ul>
 
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav text-uppercase ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger active" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">My Skill</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-            </li>
-			<li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-	
-	<section id="home" class="main-banner parallaxie" style="background: url('images/5.jpg')">
-		<div class="heading">
-	  <h1 class="display-4" style="margin-top: 290px; font-family: arial; font-weight:lighter;" >Hello, I'am <br>  </h1>
-	  	<h2 class="display-4" style="color: white; font-weight: bold; font-family: arial;">Bambang Solehudin</h3>
-
-      <p class="paragraf" style="text-transform: uppercase; font-family: arial;">And this is my resume</p>
+		<div class="menu-toggle">
+			<input type="checkbox" />
+			<span></span>
+			<span></span>
+			<span></span>
 		</div>
-	</section>
+	</nav>
+</header>
+ 
+<main>
 
-    <div id="about" class="section wb">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="message-box">                        
-                        <h2 style="text-transform: uppercase; font-weight: bold;">About Me</h2>
 
-                        <p> Hello, I am Bambang Solehudin, I am a Web Developer especially on Laravel framework. I am fresh graduated from Informatics Engineering at Gunadarma University and I got a final score / GPA of 3.48.</p>
-                        <a href="pdf/CV-baru.pdf" class="sim-btn hvr-bounce-to-top" target="blank"><span>Download My CV</span></a>
-                    </div><!-- end messagebox -->
-                </div><!-- end col -->
-
-                <div class="col-lg-6 col-sm-auto">
-                    <div class="right-box-pro wow fadeIn">
-                        <img src="images/bambangs13.jpg" alt="" class="img-rounded" style="box-shadow: 0 3px 20px rgba(0, 0, 0, 5 );" width="100%" >
-                    </div><!-- end mediagi -->
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
-	
-    <div id="services" class="section lb">
-        <div class="container">
-            <div class="section-title text-center">
-                <h3>My Skill</h3>
-                <!-- <p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p> -->
-            </div><!-- end title -->
-
-            <div class="row">
-				<div class="col-md-4">
-                    <div class="services-inner-box">
-						<div class="ser-icon">
-							<i class="flaticon-seo"></i>
-						</div>
-						<h2>Web</h2>
-						<p>HTML, CSS, Javascript, PHP, Codeigniter, Laravel, Bootstrap, Materialize, ExpressJs, React JS  </p>
-					</div>
-                </div><!-- end col -->
-                <div class="col-md-4">
-                    <div class="services-inner-box">
-						<div class="ser-icon">
-							<i class="flaticon-development"></i>
-						</div>
-						<h2>Product Design</h2>
-						<p>Figma, whimsical, Adobe xd.</p>
-					</div>
-                </div><!-- end col -->
-				<div class="col-md-4">
-                    <div class="services-inner-box">
-						<div class="ser-icon">
-							<i class="flaticon-process"></i>
-						</div>
-						<h2>Microsoft Office</h2>
-						<p> Word, Excel, Powerpoint.</p>
-					</div>
-                </div>
-                <!-- end col -->
-				<div class="col-md-4">
-                    <div class="services-inner-box">
-						<div class="ser-icon">
-							<i class="flaticon-discuss-issue"></i>
-						</div>
-						<h2>Other</h2>
-						<p>Python, SQL, Java</p>
-					</div>
-                </div>
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
-	
-
-	<div id="portfolio" class="section lb">
+	<div class="hero " id="hero">
 		<div class="container">
-			<div class="section-title text-center">
-				<h3>Portfolio Project</h3>
-			</div><!-- end title -->
-	
-			<div class="row ">
-			  <div class="col-md mb-4 ">
-				<div class="card text-white bg-dark">
-				  <img class="card-img-top" src="img/6.JPG" alt="Card image cap">
-				  <div class="card-body">
-					<p class="card-text text-center"><a href="" data-toggle="modal" data-target="#mhusada" style="color: white;"> SI Klinik Medika Husada</a></p>
-				  </div>
-				</div>
-			  </div>
-	
-			  <div class="col-md mb-4">
-				<div class="card text-white bg-dark">
-				  <img class="card-img-top" src="img/7.JPG" alt="Card image cap">
-				  <div class="card-body">
-					<p class="card-text text-center"><a href=""class="link" data-toggle="modal" data-target="#tumbas" style="color: white;"> Bams.Store</a></p>
-				  </div>
-				</div>
-			  </div>
-	
-			  <div class="col-md mb-4">
-				<div class="card text-white bg-dark">
-				  <img class="card-img-top" src="img/8.JPG" alt="Card image cap">
-				  <div class="card-body">
-					<p class="card-text text-center"><a href="" data-toggle="modal" data-target="#nomads" style="color: white;"> Nomads</a></p>
-				  </div>
-				</div>
-			  </div>
-			</div>
-	
-			<div class="row" style="color: white;" >
-			  <div class="col-md-4 mb-4">
-				<div class="card text-white bg-dark">
-				  <img class="card-img-top" src="img/shayna.jpg" alt="Card image cap">
-				  <div class="card-body">
-					<p class="card-text text-center"><a href="" data-toggle="modal" data-target="#shayna" style="color: white;"> Shayna Store</a></p>
-				  </div>
-				</div>
-			  </div> 
-			  <div class="col-md-4 mb-4">
-				<div class="card text-white bg-dark">
-				  <img class="card-img-top" src="img/lost.jpg" alt="Card image cap">
-				  <div class="card-body">
-					<p class="card-text text-center"><a href="" data-toggle="modal" data-target="#lost" style="color: white;"> lostItem-App</a></p>
-				  </div>
-				</div>
-			  </div> 
-	
-			  <div class="col-md-4 mb-4">
-				<div class="card text-white bg-dark">
-				  <img class="card-img-top" src="img/staycation.jpg" alt="Card image cap">
-				  <div class="card-body">
-					<p class="card-text text-center"><a href="" data-toggle="modal" data-target="#staycation" style="color: white;"> StayCations</a></p>
-				  </div>
-				</div>
-			  </div> 
-
-			  <div class="col-md-4 mb-4">
-				<div class="card text-white bg-dark">
-				  <img class="card-img-top" src="img/laundry.jpg" alt="Card image cap">
-				  <div class="card-body">
-					<p class="card-text text-center"><a href="" data-toggle="modal" data-target="#laundry" style="color: white;">appLaundry</a></p>
-				  </div>
-				</div>
-			  </div> 
-
-			  <div class="col-md-4 mb-4">
-				<div class="card text-white bg-dark">
-				  <img class="card-img-top" src="images/appbuku2.JPG" alt="Card image cap">
-				  <div class="card-body">
-					<p class="card-text text-center"><a href="" data-toggle="modal" data-target="#appBuku" style="color: white;">AppBukuTamu</a></p>
-				  </div>
-				</div>
-			  </div> 
-
-			</div>
-			
-		 </div>
-
-	<!-- Modals -->
-     <!-- Mhusada -->
-	 <div class="modal fade" id="mhusada" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		<div class="modal-dialog modal-lg">
-		  <div class="modal-content">
-			<div class="modal-header">
-			  <h5 class="modal-title" id="exampleModalLabel">Sistem Informasi Klinik Medika Husada Berbasis Web</h5>
-
-
-			  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-				<span aria-hidden="true">&times;</span>
-			  </button>
-			</div>
-			<div class="modal-body">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-4">
-							<img src="images/Mhusada/5.JPG" alt="" class="img-thumbnail">
-						</div>
-						<div class="col-md-4">
-							<img src="images/Mhusada/2.JPG" alt="" class="img-thumbnail">
-						</div>
-						<div class="col-md-4">
-							<img src="images/Mhusada/7.JPG" alt="" class="img-thumbnail">
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-10 mt-2 ml-2">
-						<p>
-							Program ini merupakan program yang dibuat untuk mengelola data rekam medis pada Klinik
-							Medika Husada dengan memanfaatkan teknologi Website menggunakan Framework Codeigniter. Terdapat 3 user dalam website ini yaitu Super Admin, Dokter, dan Perawat. Super Admin dapat mengakses Semua Menu yang terdapat pada website sedangkan Dokter dan perawat hanya dapat mengakses beberapa menu. website ini memiliki fitur sebagai berikut : 
-							<br>
-							-Fitur multi user pada Website
-							<br>
-							-Menu untuk mengelola Hak Akses Menu pada tiap User
-							<br>
-							-Menu untuk mengelola Data Rekam Medis
-							<br>
-							-Menu untuk mengelola Data Pasien
-							<br>
-							-Menu untuk mengelola Data Tindakan
-							<br>
-							-Menu untuk cetak Laporan Rekam Medis Sesuai Tanggal
+			<div class="row justify-content-center">
+				<div class="col-md-6" style="margin-top: 150px;">
+						<h3 class="mt-lg-4" style="color: green; font-size: 30px;">Hi, Saya Bambang Solehudin </h3>
+						<h1>
+							Web Developer
+							& UI Designer
+						</h1>
+						<p class="mt-4 mb-lg-4">
+							Nama saya Bambang Solehudin, saya merupakan seorang Web Developer & UI Designer.
+							saya lulusan dari jurusan Teknik Informatika di Universitas
+							Gunadarma. Saya dapat bekerja sama sebagai tim dan bertanggung jawab atas tugas yang
+							diberikan.
 						</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="modal-footer">
-			  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-			</div>
-		  </div>
-		</div>
-	 </div>
-	 <!-- end -->
-
-     <!-- Tumbas-->
-	 <div class="modal fade" id="tumbas" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		<div class="modal-dialog modal-lg">
-		  <div class="modal-content">
-			<div class="modal-header">
-			  <h5 class="modal-title" id="exampleModalLabel">Bams.Store</h5>
-
-
-			  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-				<span aria-hidden="true">&times;</span>
-			  </button>
-			</div>
-			<div class="modal-body">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-4">
-							<img src="images/BamsStore/1.JPG" alt="" class="img-thumbnail">
-						</div>
-						<div class="col-md-4">
-							<img src="images/BamsStore/2.JPG" alt="" class="img-thumbnail">
-						</div>
-						<div class="col-md-4">
-							<img src="images/BamsStore/3.JPG" alt="" class="img-thumbnail">
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-10 mt-2 ml-2">
-							<p>
-								Program ini merupakan program untuk E-commerce atau jual beli barang secara online berbasisWebsite dengan memanfaatkan Framework Laravel. Terdapat 3 pengguna dalam website ini yaitu Admin, 
-								supplier, dan User. Website ini memiliki fitur sebagai berikut :
-								
-								<br>
-								-Fitur multi user pada Website <br>
-								-Menu untuk mengelola Hak Akses Menu pada tiap User <br>
-								-Menu untuk mengelola Data Category <br>
-								-Menu untuk mengelola Data Product <br>
-								-Menu untuk mengelola Data Transaction <br>
-								-Menu untuk cetak Laporan Transaction <br>
-								-Terintegrasi dengan API Raja Ongkir <br>
-								-Terintegrasi Discuss  <br>
-							</p>
-						</div>
-					</div>
+						<button class="btn btn-lg mt-lg-4" id="btn-hero" style="font-size: 12px; background-color: green; padding: 8px; height: 45px; width: 90px;"> <a href="mailto:karir.bambang@gmail.com" style="
+						text-decoration: none;
+						color: wheat;
+							
+							">
+							<img src="assets/image/mail.svg" alt="" width="10" /> Email Me</a> </button> <br> 
+						<a href="assets/cv/CV.pdf" ><img src="assets/image/download.svg" alt="" style="margin-top: 19px;" id="btn-hero1"></a>
 				</div>
 
-				
-			   
-			</div>
-			<div class="modal-footer">
-			  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-			</div>
-		  </div>
-		</div>
-	 </div>
-	 <!-- end -->
+				<div class="col-md-1"></div>
 
-	<!-- Nomads  -->
-	<div class="modal fade" id="nomads" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		<div class="modal-dialog modal-lg">
-			<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel">Nomads</h5>
-
-
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-				<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-
-				<div class="container">
-					<div class="row">
-						<div class="col-md-4">
-							<img src="images/Nomads/2.JPG" alt="" class="img-thumbnail">
-						</div>
-						<div class="col-md-4">
-							<img src="images/Nomads/7.JPG" alt="" class="img-thumbnail">
-						</div>
-						<div class="col-md-4">
-							<img src="images/Nomads/8.JPG" alt="" class="img-thumbnail">
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-10 mt-2 ml-2">
-							<p>
-								Program ini merupakan program yang dibuat untuk mengelola data Pemesanan Tiket Travel dengan memanfaatkan teknologi Website menggunakan Framework Laravel. Terdapat 2 pengguna dalam website ini yaitu Admin dan User. 
-								website ini memiliki fitur sebagai berikut :
-				
-								-Fitur multi user pada Website <br>
-								- Admin Panel (CMS) untuk megelola seluruh data Pada Web <br>
-								-Verification Email ditiap Registrasi Akun<br>
-								-Menu untuk kelola data Travel<br>
-								-Menu untuk kelola data Transaksi<br>
-								-Fitur Upload gambar untuk masing-masing data travel<br>
-								-1 data travel bisa memiliki banyak gambar<br>
-								-Halaman Admin Panel untuk mengelola data travel<br>
-								-Sudah terintegrasi dengan Payment Gateway Midtrans<br>
-								</p>
-						</div>
+				<div class="col-md-4 mt-4">
+					<div class="imghero">
+						<img id="img-hero" src="assets/image/hero.svg" alt="" width="460" class="mt-lg-4 ">	
 					</div>
 				</div>
-				
-				
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-			</div>
 			</div>
 		</div>
 	</div>
-	<!-- end -->
-
-	<!-- shayna  -->
-	<div class="modal fade" id="shayna" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		<div class="modal-dialog modal-lg">
-			<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel">Shayna</h5>
-
-
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-				<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-4">
-							<img src="images/Shayna-Store/2.JPG" alt="" class="img-thumbnail">
-						</div>
-						<div class="col-md-4">
-							<img src="images/Shayna-Store/6.JPG" alt="" class="img-thumbnail">
-						</div>
-						<div class="col-md-4">
-							<img src="images/Shayna-Store/8.JPG" alt="" class="img-thumbnail">
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-10 mt-2 ml-2">
-							<p>
-								Program ini merupakan program untuk E-commerce atau jual beli barang secara online berbasis
-								Website dengan memanfaatkan Framework Laravel sebagai Back-End dan Vue Js sebagai Front-End nya. Terdapat 2 pengguna dalam website ini yaitu Admin dan User. Website ini memiliki fitur sebagai berikut :
-								<br>
-							   -Fitur multi user pada Website <br>
-							   - Admin Panel (CMS) untuk megelola seluruh data Pada sistem<br>
-							   - Terdapat Menu untuk kelola data Produk<br>
-							   - Terdapat Menu untuk kelola data Transaksi<br>
-							   - Dapat Upload Gambar untuk foto produk <br>
-							   - 1 data produk bisa memiliki banyak gambar<br>
-							   - Adanya API yang dibuat untuk diakses Front-End<br>
-							</p>
-						</div>
-					</div>
-				</div>
-				
-				
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-			</div>
-			</div>
-		</div>
-	</div>
-	<!-- end -->
-
-	<!-- lostItem  -->
-	<div class="modal fade" id="lost" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		<div class="modal-dialog modal-lg">
-			<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel">lostItem-App</h5>
-
-
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-				<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-4">
-							<img src="images/lostItem/1.JPG" alt="" class="img-thumbnail">
-						</div>
-						<div class="col-md-4">
-							<img src="images/lostItem/2.JPG" alt="" class="img-thumbnail">
-						</div>
-						<div class="col-md-4">
-							<img src="images/lostItem/3.JPG" alt="" class="img-thumbnail">
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-10 mt-2 ml-2">
-							<p>
-								Program ini merupakan program yang dibuat untuk  mencari dan menemukan barang hilang
-								berikut beberapa fitur pada program ini :
+		
 			
-								- Fitur Authentication  <br>
-								- Fitur CRUD pada barang <br>
-								- Fitur CRUD pada Gambar Barang  <br>
-								- 1 barang bisa memiliki banyak gambar <br>
-								- Fitur Manipulasi data pada data Profile <br>
-								- Terintegrasi Discuss <br>
 			
-							</p>
-						</div>
-					</div>
-				</div>				
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-			</div>
-			</div>
-		</div>
-	</div>
-	<!-- end -->
 
-	<!-- Staycation  -->
-	<div class="modal fade" id="staycation" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		<div class="modal-dialog modal-lg">
-			<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel">Staycation</h5>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-				<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-4">
-							<img src="images/Mern-Staycation/1.JPG" alt="" class="img-thumbnail">
-						</div>
-						<div class="col-md-4">
-							<img src="images/Mern-Staycation/2.JPG" alt="" class="img-thumbnail">
-						</div>
-						<div class="col-md-4">
-							<img src="images/Mern-Staycation/3.JPG" alt="" class="img-thumbnail">
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-10 mt-2 ml-2">
-							<p>
-								Staycation  merupakan program yang dibuat untuk  Pemesanan/ Booking Kamar Secara Online,  berikut beberapa fitur staycation:
-			
-								-  Menggunakan teknologi MERN <br>
-								-  Fitur Admin/ cms untuk mengelola seluruh data pada FrontEnd <br>
-								-  Fitur Kelola data Item / Kamar <br>
-								-  Fitur Kelola data Category <br>
-								-  Fitur Kelola data Feature <br>
-							</p>
-						</div>
-					</div>
-				</div>		
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-			</div>
-			</div>
-		</div>
-	</div>
-	<!-- end -->
-
-	<!-- Laundry -->
-	<div class="modal fade" id="laundry" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		<div class="modal-dialog modal-lg">
-			<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel">appLaundry</h5>
-
-
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-				<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-4">
-							<img src="images/appLaundry/1.JPG" alt="" class="img-thumbnail">
-						</div>
-						<div class="col-md-4">
-							<img src="images/appLaundry/2.JPG" alt="" class="img-thumbnail">
-						</div>
-						<div class="col-md-4">
-							<img src="images/appLaundry/3.JPG" alt="" class="img-thumbnail">
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-10 mt-2 ml-2">
-							<p>
-								apLaundry  merupakan program yang dibuat untuk  sistem informasi pada suatu Laundry. berikut fitur yang ada pada appLaundry
-			
-								- Fitur CRUD Pelanggan <br>
-								- Fitur CRUD Paket <br>
-								- Fitur CRUD Transaksi-Laundry <br>
-								- Fitur CRUD Transaksi-Pengeluaran <br>
-								- Fitur Authentication <br>
-								- Fitur CRUD Posts untuk di akses di frontend <br>
-								- Fitur cetak Transaksi <br>
-							</p>
-						</div>
-					</div>
+	<div id="content" class="content"> 
+		<div class="container portfolios">
+			<div class="row justify-content-center">
+				<div class="col-11">
+					<h2 class="mb-4">Portfolio Projects</h2>
 				</div>
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-			</div>
+
+				<div class="col-md-11 mt-4">
+					<article>
+						<div class="portfolio project2">
+							<img src="assets/image/Nomads/nomads-1.jpg" alt="" width="100%" >
+							<a href="nomads.html" style="color: white; text-decoration: none;">lihat detail..</a>
+						</div>
+					</article>
+				</div>
+
+				<div class="col-md-11 mt-4">
+					<article>
+						<div class="portfolio project1">
+							<img src="assets/image/staycation/staycation-01.jpg" alt="" width="100%">
+							<a href="staycation.html" style="color: white; text-decoration: none;">lihat detail..</a>
+						</div>
+					</article>
+				</div>
+
+				<div class="col-md-11 mt-4">
+					<article>
+						<div class="portfolio project3">
+							<img src="assets/image/appLaundry/l-1.jpg" alt="" width="100%">
+							<a href="appLaundry.html" style="color: white; text-decoration: none;">lihat detail..</a>
+						</div>
+					</article>
+				</div>
+
+				<div class="col-md-11 mt-4">
+					<article>
+						<div class="portfolio project3">
+							<img src="assets/image/shaynaStore/shayna-1.jpg" alt="" width="100%">
+							<a href="shaynaStore.html" style="color: white; text-decoration: none;">lihat detail..</a>
+						</div>
+					</article>
+				</div>
+
+				<div class="col-md-11 mt-4">
+					<article>
+						<div class="portfolio project3">
+							<img src="assets/image/lostItem/1.JPG" alt="" width="100%">
+							<a href="shaynaStore.html" style="color: white; text-decoration: none;">lihat detail..</a>
+						</div>
+					</article>
+				</div>
+
+
 			</div>
 		</div>
-	</div>
-	<!-- end -->
 
-		<!-- Laundry -->
-		<div class="modal fade" id="appBuku" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-			<div class="modal-dialog modal-lg">
-				<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLabel">appBukuTamu</h5>
-	
-	
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-4">
-								<img src="images/appbuku.JPG" alt="" class="img-thumbnail">
+
+		<div class="minat">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-11 project5 portfolio" style="box-shadow: 1px 1px 1px 1px rgb(15, 15, 15); margin-top: 100px;">
+						<div class="row p-5 " >
+							<div class="col-6 pl-3 ">
+								<h3>Minat dengan saya ?</h3>
 							</div>
-							<div class="col-md-4">
-								<img src="images/appbuku1.JPG" alt="" class="img-thumbnail">
-							</div>
-							<div class="col-md-4">
-								<img src="images/appbuku2.JPG" alt="" class="img-thumbnail">
+							<div class="col-2"></div>
+
+							<div class="col-md-4 d-flex col-sm-12" >
+								<div class="button btn-1 mr-4"  style="padding-right: 20px;">
+									<button class="p-2" style="background-color:#2E2E2E;  border-color: #ffffff; margin-right: 1px;"> <a href="all.html" style="color: white; text-decoration: none;">Lihat Semua Project..</a> </button> <br>
+								</div>
+								<div class="btn-2 sm-12">
+									<button class="p-2 text-light" style="background-color: green;"><a href="mailto:karir.bambang@gmail.com"><img src="assets/image/mail.svg" alt="" width="10" /> Email Me</a> </button> <br>
+								</div>
 							</div>
 						</div>
-						<div class="row">
-							<div class="col-md-10 mt-2 ml-2">
-								<p>
-									apBukuTamu  merupakan program yang dibuat untuk aplikasi buku tamu. berikut fitur yang ada pada appBukuTamu
-									<br>
-									- Fitur CRUD User <br>
-									- Fitur CRUD Tamu <br>
-									- Fitur Cetak Laporan sesuai tanggal <br>
-									- Fitur Authentication <br>
-									- Fitur Email notification<br>
-								</p>
+						<!-- <article>
+							<div class="portfolio project5" id="project5">
+								<div class="tulisan">
+								<h2>Minat Bekerja Dengan Saya ? </h2>
+								</div>
+								<div class="coba"></div>
+								<div class="button btn-1 mr-4"  style="padding-right: 20px;">
+									<button style="background-color:#2E2E2E;  border-color: #ffffff; margin-right: -50px;"> <a href="all.html" style="color: white; text-decoration: none;">Lihat Semua Project..</a> </button> <br>
+								</div>
+								<div class="button btn-2 mr-4">
+									<button> <a href="mailto:karir.bambang@gmail.com" style="
+										text-decoration: none;
+										color: wheat;
+											
+											">
+											<img src="assets/image/mail.svg" alt="" width="10" /> Email Me</a> </button> <br>
+								</div>
 							</div>
-						</div>
+						</article> -->
 					</div>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-				</div>
+
 				</div>
 			</div>
 		</div>
-		<!-- end -->
 
-	<!-- End Modals -->
-  
+
+
+		<div class="project" id="project">
+					
+				
+
+			
+			
+				
+
+		
+
+
+		
+				
+				<article>
+					<div class="mengapa">
+						<div class="tulisan" style="margin-top:100px;">
+							<article>
+								<h1 style="text-align: center; font-size: 32px;">Mengapa Memilih Saya ?</h1>
+							</article>
+						</div>
+						<div class="mengapa1" style="text-align: center;">
+							<div class="satu"> 
+								<img src="assets/image/mengapa.svg" alt="">
+								<article>
+									<h3 class="m-4"> Creative</h3>
+									<!-- <p>Lorem ipsum, <br> sit amet consectetur <br> dolor sit amet consectetur   </p> -->
+								</article>
+							</div>
+							
+							<div class="satu"> 
+								<img src="assets/image/mengapa.svg" alt="">
+								<article>
+									<h3 class="m-4"> Communicative</h3>
+									<!-- <p>sit amet consectetur<br>  Lorem ipsum,  <br> dolor sit amet consectetur   </p> -->
+								</article>
+							</div>
+			
+							<div class="satu"> 
+								<img src="assets/image/mengapa.svg" alt="">
+								<article>
+									<h3 class="m-4"> Hard Worker</h3>
+									<!-- <p>Lorem ipsum, <br>lorem sit amet consectetur <br> dolor sit amet consectetur   </p> -->
+								</article>
+			
+							</div>
+			
+							<div class="satu"> 
+								<img src="assets/image/mengapa.svg" alt="">
+								<article>
+									<h3 class="m-4"> Innovative</h3>
+									<!-- <p>Lorem ipsum, <br> sit amet consectetur <br> dolor sit amet consectetur   </p> -->
+								</article>
+							</div>
+			
+						</div>
+					</div>
+				</article>
+		</div>
+
+
+
+
+	</div>
+
+			<!-- toold -->
+
+	<div class="tools mb-5" style="margin-top: -80px;" >
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="tools1 col-md-10 ">
+					<h1 class="m-5 text-center">Tools & Skills</h1>
+					<div class="row justify-content-center">
+						<div class="col-lg-2">
+							<img src="assets/image/tools/HTML.png" alt="" srcset="" width="71%">
+						</div>
+						<div class="col-lg-2 col-xs-6">
+							<img src="assets/image/tools/CSS.png" alt="" srcset="" width="85%">
+						</div>
+						<div class="col-lg-2">
+							<img src="assets/image/tools/JS.png" alt="" srcset="" width="85%">
+						</div>
+						<div class="col-lg-2">
+							<img src="assets/image/tools/PHP.png" alt="" srcset="" width="100%" style="padding-top: 20px;">
+						</div>
+						<div class="col-lg-2">
+							<img src="assets/image/tools/Laravel.png" alt="" srcset="" width="100%">
+						</div>
+						<div class="col-lg-2">
+							<img src="assets/image/tools/node.png" alt="" srcset="" width="100%">
+						</div>
+						<div class="col-lg-2">
+							<img src="assets/image/tools/react.png" alt="" srcset="" width="80%" style="padding-top: 20px;">
+						</div>
+						<div class="col-lg-2" style="margin-bottom: 100px;">
+							<img class="m-3" src="assets/image/tools/FIGMA.png" alt="" srcset="" width="90%">
+						</div>
+						<div class="col-lg-2" style="margin-bottom: 100px;">
+							<img class="m-3" src="assets/image/tools/VSCODE.png" alt="" srcset="" width="90%">
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+
+	<!-- contact -->
+	<div class="contact" style=" background-color: rgb(60, 61, 60);">
+		<div class="container">
+			<div class="row">
+				<div class="col-10 m-5">
+					<h3>Contact</h3>	
+					<p class="mt-2">silahkan kirim email ke : <a style="text-decoration:none; color:white; font-weight:200" href="mailto:karir.bambang@gmail.com">karir.bambang@gmail.com</a></p>
+					<a href="https://wa.link/nllri9"><img class="m-3" src="assets/image/logo/whatsapp.svg" alt="whatsapp" width="25px"></a>
+					<a href="https://www.instagram.com/bambangsolhud/"> <img class="m-3" src="assets/image/logo/instagram.png" alt="instagram" width="25px"></a> 
+					<a href="https://www.linkedin.com/in/bambang-solehudin-1ab3861b9/"> <img class="m-3" src="assets/image/logo/linkedin.svg" alt="linkedin" width="25px"> </a> 
+
+				</div>
+			</div>
+		</div>
 	</div>
 
 	
+</main>
 
-	<div id="contact" class="section db">
-        <div class="container">
-			<div class="section-title text-center">
-				<h3>Contact</h3>
-			</div>
-            <div class="row">
-				<div class="col md-1"></div>
 
-                <div class="col-md-4">
-                        <img src="images/bambangsh.jpg" class="img-thumbnail" style="border-radius: 39px;" >
-                </div>
-
-                <div class="col-lg-5 col-sm-auto" style="margin-top: 100px;">
-					<div class="message-box">                        
-						<table class="text-left " style="margin-top: -90px; font-size: 17px; color: black;" >
-							<tr>
-								<td>Phone </td>
-								<td> : </td>
-								<td> 085156129092</td>
-							</tr><br>
-	
-							<tr>
-								<td>Email</td>
-								<td> : </td>
-								<td> karir.bambang@gmail.com</td>
-							</tr><br>
-							<tr>
-								<td>LinkedIn</td>
-								<td>:</td>
-								<td><a href="https://linkedin.com/in/bambang-solehudin-1ab3861b9/" >Bambang Solehudin</a></td>
-							</tr><br>
-							<tr>
-								<td>Github</td>
-								<td> : </td>
-								<td> <a href="https://github.com/Bambangsolehudin">github.com/Bambangsolehudin</a> </td>
-							</tr><br>
-							<tr>
-								<td>Instagram </td>
-								<td> : </td>
-								<td> @bambangsolhud</td>
-							</tr>
-						</table>
-                    </div>
-                    
-                </div>
-				<div class="col md-1"></div>
-
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
+ <!-- <footer style="margin-top: 300px; font-size: 14px;" >
+		<p style="text-align: center; ">Belajar Dasar Pemrograman Web &#169; 2021, Dicoding Academy - Bambang Solehudin</p>
+</footer> -->
 
 
 
-
-
-
-
-
-    
-
-
-
-
-     
-
-    <div class="copyrights">
-        <div class="container">
-            <div class="footer-distributed">
-				<!-- <a href="#"><img src="images/logo.png" alt="" /></a> -->
-                <div class="footer-center">
-  <!--                   <p class="footer-links">
-                        <a href="#">Home</a>
-                        <a href="#">Blog</a>
-                        <a href="#">Pricing</a>
-                        <a href="#">About</a>
-                        <a href="#">Faq</a>
-                        <a href="#">Contact</a>
-                    </p> -->
-                  <!--   <p class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="#">OnNext</a> Design By :  -->
-					<!-- <a href="https://html.design/">html design</a></p> -->
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
-
-    <!-- ALL JS FILES -->
-    <script src="js/all.js"></script>
-	<!-- Camera Slider -->
-	<script src="js/jquery.mobile.customized.min.js"></script>
-	<script src="js/jquery.easing.1.3.js"></script> 
-	<script src="js/parallaxie.js"></script>
-	<script src="js/headline.js"></script>
-	<!-- Contact form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-    <!-- ALL PLUGINS -->
-    <script src="js/custom.js"></script>
-    <script src="js/jquery.vide.js"></script>
-
+<script src="assets/script/script.js"></script>
 </body>
 </html>
