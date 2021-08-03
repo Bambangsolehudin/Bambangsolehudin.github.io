@@ -36,7 +36,7 @@ nav ul li a {
 
 nav .logo{
   flex: 2;
-  margin-left: 20px;
+  margin-left: 15px;
   margin-top: -7px;
 }
 
@@ -53,6 +53,7 @@ nav ul {
    /* margin-left: 30px; */
    justify-content: space-between;
    position: relative;
+   margin-right: -27px;
 }
 
 .menu-toggle input {
