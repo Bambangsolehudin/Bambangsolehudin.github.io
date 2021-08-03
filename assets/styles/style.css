@@ -38,7 +38,7 @@ nav ul li a {
 
 nav .logo{
   flex: 2;
-  padding-left: 3px;
+  padding-left: 9px;
   margin-top: -6px;
 }
 
@@ -55,8 +55,8 @@ nav ul {
    /* margin-left: 30px; */
    justify-content: space-between;
    position: relative;
-   margin-right: -32px;
-   margin-top: -16px;
+   margin-right: -35px;
+   margin-top: -15px;
 }
 
 .menu-toggle input {
@@ -297,7 +297,7 @@ main .content .project .project5 button{
    }
 
    nav .logo {
-      margin-left: -10px;
+      margin-left: -16px;
    }
 
    main .hero  {
