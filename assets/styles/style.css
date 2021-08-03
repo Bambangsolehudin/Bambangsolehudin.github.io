@@ -17,9 +17,10 @@ nav {
    display: flex;
    align-items: center;
    margin: 0;
-   height: 70px;
+   height: 80px;
    padding-right: 50px;
-   padding-left: 34px;
+   padding-left: 30px;
+   /* padding-top: 20px; */
 }
 
 nav ul {
@@ -32,12 +33,13 @@ nav ul li a {
    text-decoration: none;
    color: white;
    font-size: 16px;
+   padding-top: 10px;
 }
 
 nav .logo{
   flex: 2;
-  margin-left: 15px;
-  margin-top: -7px;
+  padding-left: 3px;
+  margin-top: -6px;
 }
 
 nav ul {
@@ -53,14 +55,15 @@ nav ul {
    /* margin-left: 30px; */
    justify-content: space-between;
    position: relative;
-   margin-right: -27px;
+   margin-right: -32px;
+   margin-top: -16px;
 }
 
 .menu-toggle input {
    position: absolute;
    width: 40px;
-   height: 28;
-   left: -5px;
+   height: 20;
+   left: -4px;
    top: -5px;
    opacity: 0;
    cursor: pointer;
@@ -266,6 +269,10 @@ main .content .project .project5 button{
 
    .menu-toggle{
       display: flex;
+   }
+
+   nav {
+      padding-left: 23px;
    }
    
    nav ul {
